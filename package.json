@@ -1,0 +1,25 @@
+{
+  "name": "areax_instagram_messaging",
+  "version": "1.0.0",
+  "description": "This back-end application is meant to receive & publish messages onto IG platform.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app/app.js"
+  },
+  "keywords": [
+    "areax",
+    "ai",
+    "messaging",
+    "instagram",
+    "area"
+  ],
+  "author": "alex",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "instagram-private-api": "^1.46.1",
+    "multer": "^1.4.5-lts.1"
+  }
+}
