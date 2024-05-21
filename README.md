@@ -43,6 +43,7 @@ This is an application to post captions and images to Instagram using the `insta
 
 ## Project Structure
 
+```bash
 project-root
 │   .env
 │   app.js
@@ -53,6 +54,7 @@ project-root
 └───routes
 │   │   postRoutes.js
 └───uploads
+```
 
 **app.js**: The main entry point of the application.
 **controllers/postController.js**: Contains the logic for handling the post requests.
