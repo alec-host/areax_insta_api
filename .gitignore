@@ -6,6 +6,7 @@
 
 # image dir
 /upload
+/uploads
 
 # dependencies
 /node_modules
