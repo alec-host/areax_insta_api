@@ -10,7 +10,7 @@ const { getImageExtension } = require('../utils/image.extension');
 const { insertOrUpdateInstagramMedia } = require('../controllers/instagram/user/store.instagram.media');
 const { getTimeDifferenceInHours } = require('./instagram/user/get.instagram.media.time.difference');
 const { INSTAGRAM_WAIT_TIME_IN_HOURS, INSTAGRAM_URL_PROXY } = require('../constants/app_constants');
-const { getInstagramMediaByUsername } = require('./instagram/user/get.instagram.media');
+const { getInstagramMediaByUsername } = require('./instagram/user/get.instagram.media')
 const { delay } = require('../utils/random.delay');
 
 const ig = new IgApiClient();
