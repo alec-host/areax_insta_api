@@ -42,6 +42,7 @@ const checkUserSession = async(ig,username,password,appendKeyString,client) => {
     }catch(error){
         if(error.name === 'IgLoginRequiredError' || error.message.includes('checkpoint_required')){
             console.log('Session has expired or is invalid, logging in again...');
+            await deleteData(client,appendKeyString);
             await loginAndSaveUserSession(ig,username,password,appendKeyString,client);
         }else{
             throw error;
